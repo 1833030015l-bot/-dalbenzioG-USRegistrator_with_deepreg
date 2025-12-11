@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+monai-reg/
+venv/
+env/
+ENV/
+.venv
+
+# Weights & Biases
+wandb/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Model checkpoints (uncomment if you want to exclude saved models)
+# *.pth
+# *.pt
+# *.ckpt
+
+# Temporary files
+*.tmp
+*.temp
+

@@ -1,0 +1,23 @@
+# Core dependencies for USRegistrator
+# PyTorch (install separately based on your CUDA version - see README)
+# torch>=2.0.0
+# torchvision>=0.15.0
+# torchaudio>=2.0.0
+
+# MONAI - Medical imaging framework
+monai>=1.5.0
+
+# Weights & Biases - Experiment tracking
+wandb>=0.23.0
+
+# YAML configuration parsing
+PyYAML>=6.0.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Note: PyTorch installation depends on your system:
+# For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# For CPU only: pip install torch torchvision torchaudio
+
